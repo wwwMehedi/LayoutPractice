@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+    //LinearLAyout Weightsum
+    <LinearLayout
+        android:layout_weight="3"
+        android:background="#0fd623"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:background="#370ca4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="#ea1764"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:background="#a40c88"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <!--<Button-->
+        <!--android:id="@+id/one"-->
+        <!--android:text="one"-->
+        <!--android:layout_weight="3"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:id="@+id/two"-->
+        <!--android:text="one"-->
+        <!--android:layout_weight="2"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:id="@+id/three"-->
+        <!--android:text="one"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:id="@+id/four"-->
+        <!--android:text="one"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:id="@+id/five"-->
+        <!--android:text="one"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+//Relative layout practice code
+
+<!--<EditText-->
+    <!--android:id="@+id/editid"-->
+    <!--android:text="Numberone"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<EditText-->
+        <!--android:layout_below="@+id/editid"-->
+        <!--android:id="@+id/editwoid"-->
+        <!--android:text="Numberone"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:layout_below="@id/editwoid"-->
+        <!--android:text="Plus"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:id="@+id/plusid"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/minusid"-->
+    <!--android:layout_below="@+id/editwoid"-->
+    <!--android:layout_toRightOf="@+id/plusid"-->
+    <!--android:text="minus"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/mulid"-->
+        <!--android:layout_toRightOf="@+id/minusid"-->
+        <!--android:layout_alignTop="@+id/minusid"-->
+        <!--android:text="multi"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+
+
+
+</LinearLayout>
